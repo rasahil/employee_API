@@ -50,7 +50,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-// Search employees by name
+// we are Searching employee by name
 router.get('/search/:name', async (req, res) => {
   const { name } = req.params; // Access name from params
   console.log(`Searching for employees with name: ${name}`); // Debug log
